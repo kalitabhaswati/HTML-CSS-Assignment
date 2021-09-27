@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav{
+    background-color:rgb(69, 82, 126);
+    padding: 15px 40px;
+    border-bottom: 1px solid rgb(69, 82, 126) ;
+}
+
+.nav h1{
+    display: inline-block;
+    color: rgb(117, 187, 245);
+}
+
+.btn{
+    float: right;
+    margin-top:-3px;
+    padding: 8px 15px;
+    background-color: rgb(117, 187, 245);
+    color: #000;
+    border-radius: 5px;
+}
+
+aside{
+    width: 20%;
+    display: inline-block;
+    height: 100vh;
+}
+
+.side-nav{
+    background-color:rgb(97, 104, 128);
+    width: 20%;
+    display: inline-block;
+    
+}
+
+.side-nav a{
+    display: block;
+    padding: 20px 40px;
+    color:#000;
+}
+
+main{
+    width: 80%;
+    float: right;
+    background-color: rgb(172, 196, 204);
+}
+
+
+
+.box{
+    display:inline-block;
+    width: 150px;
+    height: 150px;
+    border: 1px solid;
+    margin: 20px 30px;
+    text-align: center;
+    padding-top: 4rem;
+    }
+
+.clr{
+    clear: both;
+}
+
+.sub-content{
+    margin: 20px 30px;
+    margin-bottom: 10px;
+}
+
+.pic{
+    display: inline-block;
+    width: 45%;
+    height: 150px;
+    border: 1px solid #000;
+    text-align: center;
+    padding-top: 4rem;
+}
+
+.pic-content{
+    float: right;
+    width: 50%;
+    padding: 10px 0;
+    padding-right: 15px;
+}
+
+hr{
+    margin: 20px 0;
+}
+
+
+form table tr td {
+    width: 43%;
+    padding: 2px 0;
+    padding-left: 30px;
+}
+
+input[type="text"],input[type="email"]{
+    width: 100%;
+    padding: 5px;
+}
+
+input[type="submit"]{
+    padding: 6px 20px;
+    background-color: rgb(117, 187, 245);
+    color: #000;
+    border-radius: 5px;
+}
+
+
+.table caption{
+    text-align: left;
+}
+.table{
+    margin: 20px auto;
+    width: 93%;
+    margin-bottom: 15px;
+    border: 1px groove;
+}
+
+.table tr td,
+.table tr th{
+    width: 30%;
+    border: 1px groove;
+    padding: 5px;
+}
